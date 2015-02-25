@@ -20,7 +20,7 @@ tc = agent.get('http://www.techcrunch.com/')
 
 
 tc.root.css('li.river-block').each do |link|
-#   puts link['id'].to_i
+  puts link['id'].to_i
 
 #   if link.css('div.byline a').text.empty?
 #     a = link.css('div.byline').text
